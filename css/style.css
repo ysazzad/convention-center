@@ -4,3 +4,7 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+.book-btn{
+    background-color: white;
+    color: #fd9644;
+}
