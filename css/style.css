@@ -1,23 +1,25 @@
 /* font style  */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Poppins:wght@400;500&display=swap');
 
+/* common section  */
 body{
     font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
 }
+.common-top{
+    margin-top: 100px;
+}
+/* header section  */
 .book-btn{
     background-color: white;
     color: #fd9644;
 }
 .top-card{
-    width: 1440px;
+    width: 100%;
     height: 584px;
+    background-size: cover;
 }
-.package-btn{
-    background-color: #ffeaa7;
-}
-.navy-blue{
-     color: #231D4F;
-}
+/* package section  */
 .package-heading{
     margin-bottom: 100px;
 }
@@ -26,14 +28,25 @@ body{
     height: 387px;
     margin-top: 45px;
 }
+.navy-blue{
+    color: #231D4F;
+}
 .check-color{
     color:#848199;
+}
+.package-btn{
+    background-color: #ffeaa7;
 }
 .bg-wedding{
     background: #3F87F5;
     border-radius: 20px;
     box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
     width: 262px;
-    height: 480px;
+    height: 480px;  
    
+}
+/* footer section  */
+.footy{
+    height: 250px;
+    margin-top: 110px;
 }
